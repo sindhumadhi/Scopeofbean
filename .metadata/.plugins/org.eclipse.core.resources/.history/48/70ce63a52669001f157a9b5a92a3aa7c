@@ -1,0 +1,22 @@
+package com.customer.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.customer.Customer;
+
+@Service
+public class CusService 
+{
+
+	@Autowired
+	CusService cs;
+	
+	public String postAll(List<Customer> l)
+	{
+		
+		return cs.postAll(l);
+	}
+}

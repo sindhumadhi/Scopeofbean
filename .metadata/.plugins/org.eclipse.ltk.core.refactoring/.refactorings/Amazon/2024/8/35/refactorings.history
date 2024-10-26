@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.amazon.exception.ProductNotFound&apos; to &apos;ProductNotFoundException&apos;&#x0D;&#x0A;- Original project: &apos;Amazon&apos;&#x0D;&#x0A;- Original element: &apos;com.amazon.exception.ProductNotFound&apos;&#x0D;&#x0A;- Renamed element: &apos;com.amazon.exception.ProductNotFoundException&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ProductNotFound&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.amazon.exception{ProductNotFound.java[ProductNotFound" matchStrategy="1" name="ProductNotFoundException" qualified="false" references="true" similarDeclarations="false" stamp="1725078848639" textual="false" version="1.0"/>
+</session>

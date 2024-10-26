@@ -1,0 +1,19 @@
+package com.mobile.Dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.mobile.repo.MobRepo;
+
+@Repository
+public class MobDao {
+	
+@Autowired
+MobRepo mr;
+
+public Mobile post(Mobile m)
+{
+	mr.save(m);
+	return m;
+}
+}
